@@ -1,15 +1,19 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net48</TargetFramework>
+    <TargetFrameworks>net48;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>Assets\logo-128.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DialogUtils" Version="1.2.0" />
-    <PackageReference Include="MaterialDesignExtensions" Version="3.3.0" />
+    <PackageReference Include="DialogUtils" Version="1.3.0" />
+    <!--<PackageReference Include="MaterialDesignExtensions" Version="3.3.0" />-->
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MaterialDesignExtensions\MaterialDesignExtensions.csproj" />
   </ItemGroup>
 
 </Project>
