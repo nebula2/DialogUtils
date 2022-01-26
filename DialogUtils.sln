@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DialogUtilsProjectTemplate"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogUtilsProjectTemplateInstaller", "DialogUtilsProjectTemplateInstaller\DialogUtilsProjectTemplateInstaller.csproj", "{02E29726-7855-4D37-A709-57A968391803}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaterialDesignExtensions", "MaterialDesignExtensions\MaterialDesignExtensions.csproj", "{6FD0A744-4F41-4F38-8F24-3A61F00530A6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{02E29726-7855-4D37-A709-57A968391803}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02E29726-7855-4D37-A709-57A968391803}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02E29726-7855-4D37-A709-57A968391803}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6FD0A744-4F41-4F38-8F24-3A61F00530A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6FD0A744-4F41-4F38-8F24-3A61F00530A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6FD0A744-4F41-4F38-8F24-3A61F00530A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6FD0A744-4F41-4F38-8F24-3A61F00530A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

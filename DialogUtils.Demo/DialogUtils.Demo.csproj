@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFrameworks>net48;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net6.0-windows</TargetFrameworks>
     <UseWPF>true</UseWPF>
     <Authors>Allen Lee</Authors>
     <Version>1.3.0</Version>
@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <!--<PackageReference Include="MaterialDesignExtensions" Version="3.3.0" />-->
+    <PackageReference Include="MaterialDesignExtensions.Nebula" Version="4.0.1" />
     <PackageReference Include="MaterialDesignThemes" Version="4.3.0" />
     <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
   </ItemGroup>
